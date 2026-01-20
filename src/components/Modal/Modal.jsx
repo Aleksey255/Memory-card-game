@@ -4,7 +4,7 @@ import classes from './Modal.module.css'
 Modal.propTypes = {
   newGame: PropTypes.func,
   score: PropTypes.number,
-  bestScore: PropTypes.array
+  bestScore: PropTypes.number
 }
 
 export default function Modal ({ newGame, score, bestScore }) {
